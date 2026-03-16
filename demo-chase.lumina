@@ -1,1 +1,20 @@
-{"name":"demo-chase","fixtures":[{"id":"fx1","name":"Spot 1","params":["dimmer"]}],"cues":[{"id":"c1","fixtureId":"fx1","param":"dimmer","startBeat":0,"endBeat":4,"startVal":0,"endVal":255},{"id":"c2","fixtureId":"fx1","param":"dimmer","startBeat":4,"endBeat":8,"startVal":255,"endVal":0}]}
+{
+  "type": "lumina-project",
+  "version": 4,
+  "showName": "demo-chase",
+  "savedAt": "2026-03-16T18:00:00.000Z",
+  "fixtures": [
+    {"id": 1, "name": "Spot 1", "color": "#ff5544", "type": "SPOT", "position": "FRONT 1"},
+    {"id": 2, "name": "Spot 2", "color": "#ff5544", "type": "SPOT", "position": "FRONT 2"}
+  ],
+  "cues": [
+    {"id": "c1", "fixtureId": 1, "param": "dimmer", "startBeat": 0, "endBeat": 4, "startVal": 0, "endVal": 255, "easing": "linear"},
+    {"id": "c2", "fixtureId": 1, "param": "dimmer", "startBeat": 4, "endBeat": 8, "startVal": 255, "endVal": 0, "easing": "linear"},
+    {"id": "c3", "fixtureId": 2, "param": "dimmer", "startBeat": 2, "endBeat": 6, "startVal": 0, "endVal": 255, "easing": "linear"},
+    {"id": "c4", "fixtureId": 2, "param": "dimmer", "startBeat": 6, "endBeat": 10, "startVal": 255, "endVal": 0, "easing": "linear"}
+  ],
+  "bpm": 120,
+  "loopStart": 0,
+  "loopEnd": 16,
+  "loopEnabled": true
+}
