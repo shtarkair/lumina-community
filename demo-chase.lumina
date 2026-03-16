@@ -1,0 +1,1 @@
+{"name":"demo-chase","fixtures":[{"id":"fx1","name":"Spot 1","params":["dimmer"]}],"cues":[{"id":"c1","fixtureId":"fx1","param":"dimmer","startBeat":0,"endBeat":4,"startVal":0,"endVal":255},{"id":"c2","fixtureId":"fx1","param":"dimmer","startBeat":4,"endBeat":8,"startVal":255,"endVal":0}]}
